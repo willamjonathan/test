@@ -1,0 +1,11 @@
+edge1 = eval(input('enter length of edge 1='))
+edge2 = eval(input('enter length of edge 2='))
+edge3 = eval(input('enter length of edge 3='))
+if edge1 + edge2 > edge3
+    print ("perimeter :", edge1 + edge2 + edge3)
+elif edge1 + edge3 > edge2
+    print ("perimeter :", edge1 + edge2 + edge3)
+elif edge2 + edge3 > edge1
+    print ("perimeter :", edge1 + edge2 + edge3)
+else
+    print ('false')
